@@ -1,7 +1,7 @@
-# PrestaShop Coinpal Checkout Installation
+# PrestaShop CoinPal Checkout Installation
 
-## Step 1: Log in to the Coinpal Admin Dashboard to get the Merchant Number and Secret Key.
-1. [Register](https://portal.coinpal.io/#/admin/register)/[login](https://portal.coinpal.io/#/admin/login) and go to Coinpal's Admin Dashboard 
+## Step 1: Log in to the CoinPal Admin Dashboard to get the Merchant Number and Secret Key.
+1. [Register](https://portal.coinpal.io/#/admin/register)/[login](https://portal.coinpal.io/#/admin/login) and go to CoinPal's Admin Dashboard 
 
 ![](./img/register.png)
 
@@ -10,18 +10,18 @@
 3. Click the 'Integration' button in the lower left corner to get the corresponding Merchant Id and Secret Key
 ![](./img/api-key.png)
 
-## Step 2: Installing the Coinpal Plugin on your PrestaShop Site.
-1. Click on the [Coinpal plugin](https://github.com/coinpal-io/plug_prestashop/blob/master/coinpalpayment.zip) to download the Coinpal PrestaShop Payment Plug.
+## Step 2: Installing the CoinPal Plugin on your PrestaShop Site.
+1. Click on the [Coinpal plugin](https://github.com/coinpal-io/plug_prestashop/blob/master/coinpalpayment.zip) to download the CoinPal PrestaShop Payment Plug.
 
 2. Navigate to your PrestaShop admin area and follow this path: Module -> Module Management -> Upload Module
 
 ![](./img/upload.png)
 
-3.  Configure Coinpal PrestaShop Gateway
+3.  Configure CoinPal PrestaShop Gateway
 
     Go to the PrestaShop Admin, click Configuration.
         
-    Copy and Paste all of the Settings you generated in your Coinpal Dashboard on Step #1.
+    Copy and Paste all of the Settings you generated in your CoinPal Dashboard on Step #1.
     
     Click Save Changes.
 
@@ -38,7 +38,7 @@ Add a test item to your shopping cart and view the cart.
 
 Proceed to Checkout
 
-Select Coinpal as the Payment Method.
+Select CoinPal as the Payment Method.
 
 Click PLACE ORDER
 
@@ -54,13 +54,13 @@ Login to your PrestaShop Admin Dashboard.
 
 Go to the PrestaShop Section and Click Orders.
 
-You will see the test orders marked as “Paid”.
+You will see the test orders marked as "Paid".
 
 Check whether coins are settled to the CoinPal wallet.
 
 You may also use a Block Explorer to verify if the transaction was processed.
 
-After the verification of the above steps is completed, it means that the connection with Coinpal is successful.
+After the verification of the above steps is completed, it means that the connection with CoinPal is successful.
 
 
 
